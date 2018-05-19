@@ -1,0 +1,7 @@
+a = float(input("Enter your wage/hour rate: "))
+b = float(input("How many hours did you work? "))
+print("Seu salário bruto é:", (a*b), "$")
+print("Paid to IR:", (a*b*0.11), "$")
+print("Paid to INSS:", (a*b*0.08), "$")
+print("Paid to Sindicato:", (a*b*0.05), "$")
+print("Your Wage is:", (a*b*0.76))
